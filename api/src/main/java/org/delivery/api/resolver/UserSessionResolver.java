@@ -1,4 +1,4 @@
-package org.delivery.api.common.resolver;
+package org.delivery.api.resolver;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -51,6 +51,7 @@ public class UserSessionResolver implements HandlerMethodArgumentResolver {
                 .address(userEntity.getAddress())
                 .registeredAt(userEntity.getRegisteredAt())
                 .unregisteredAt(userEntity.getUnregisteredAt())
-                .lastLoginAt(userEntity.getLastLoginAt());
+                .lastLoginAt(userEntity.getLastLoginAt())
+                .build();
     }
 }

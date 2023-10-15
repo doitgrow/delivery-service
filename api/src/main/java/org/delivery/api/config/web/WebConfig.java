@@ -1,12 +1,11 @@
 package org.delivery.api.config.web;
 
 import lombok.RequiredArgsConstructor;
-import org.delivery.api.common.resolver.UserSessionResolver;
+import org.delivery.api.resolver.UserSessionResolver;
 import org.delivery.api.interceptor.AuthorizationInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;

@@ -64,7 +64,6 @@ public class UserBusiness {
     public UserResponse me(
             User user
     ) {
-
         var userEntity = userService.getUserWithThrow(user.getId());
         var response = userConverter.toResponse(userEntity);
         return response;
