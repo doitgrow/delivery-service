@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import net.bytebuddy.asm.Advice;
 import org.delivery.db.core.BaseEntity;
 import org.delivery.db.user.enums.UserStatus;
 
